@@ -357,7 +357,6 @@
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\Common\Inc</state>
                     <state>$PROJ_DIR$\CM7\Inc</state>
-                    <state>$PROJ_DIR$\STM32CubeH7\Drivers\CMSIS\Include</state>
                     <state>$PROJ_DIR$\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</state>
                     <state>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc</state>
                     <state>$PROJ_DIR$\STM32CubeH7\Drivers\BSP\STM32H747I-DISCO</state>
@@ -2194,6 +2193,54 @@
         </settings>
     </configuration>
     <group>
+        <name>Application</name>
+        <group>
+            <name>Startup</name>
+            <file>
+                <name>$PROJ_DIR$\startup_stm32h747xx.s</name>
+            </file>
+        </group>
+        <group>
+            <name>User</name>
+            <group>
+                <name>CM4</name>
+                <excluded>
+                    <configuration>STM32H747I_DISCO_CM7</configuration>
+                </excluded>
+                <file>
+                    <name>$PROJ_DIR$\CM4\Src\main.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\CM4\Src\stm32h7xx_hal_msp.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\CM4\Src\stm32h7xx_it.c</name>
+                </file>
+            </group>
+            <group>
+                <name>CM7</name>
+                <excluded>
+                    <configuration>STM32H747I_DISCO_CM4</configuration>
+                </excluded>
+                <file>
+                    <name>$PROJ_DIR$\CM7\Src\ei_standalone.cpp</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\CM7\Src\main.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\CM7\Src\stm32h7xx_hal_msp.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\CM7\Src\stm32h7xx_it.c</name>
+                </file>
+            </group>
+            <group>
+                <name>Common</name>
+            </group>
+        </group>
+    </group>
+    <group>
         <name>Doc</name>
         <file>
             <name>$PROJ_DIR$\Readme.md</name>
@@ -2278,54 +2325,6 @@
             <file>
                 <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c</name>
             </file>
-        </group>
-    </group>
-    <group>
-        <name>Application</name>
-        <group>
-            <name>Startup</name>
-            <file>
-                <name>$PROJ_DIR$\startup_stm32h747xx.s</name>
-            </file>
-        </group>
-        <group>
-            <name>User</name>
-            <group>
-                <name>CM4</name>
-                <excluded>
-                    <configuration>STM32H747I_DISCO_CM7</configuration>
-                </excluded>
-                <file>
-                    <name>$PROJ_DIR$\CM4\Src\main.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\CM4\Src\stm32h7xx_hal_msp.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\CM4\Src\stm32h7xx_it.c</name>
-                </file>
-            </group>
-            <group>
-                <name>CM7</name>
-                <excluded>
-                    <configuration>STM32H747I_DISCO_CM4</configuration>
-                </excluded>
-                <file>
-                    <name>$PROJ_DIR$\CM7\Src\ei_standalone.cpp</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\CM7\Src\main.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\CM7\Src\stm32h7xx_hal_msp.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\CM7\Src\stm32h7xx_it.c</name>
-                </file>
-            </group>
-            <group>
-                <name>Common</name>
-            </group>
         </group>
     </group>
 </project>
