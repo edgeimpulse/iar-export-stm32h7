@@ -31,6 +31,8 @@
   * @{
   */
 
+extern int ei_main(void);
+
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
@@ -57,14 +59,6 @@ static void CPU_CACHE_Enable(void);
 static void Error_Handler(void);
 
 /* Private functions ---------------------------------------------------------*/
-
-// static void ei_printf(const char *format, ...)
-// {
-//     va_list myargs;
-//     va_start(myargs, format);
-//     vprintf(format, myargs);
-//     va_end(myargs);
-// }
 
 /**
   * @brief  Main program
@@ -133,7 +127,6 @@ int main(void)
 
     // /* Enable the FIFO mode */
     // HAL_UARTEx_EnableFifoMode(&UartHandle);
-
 
     printf("Edge Impulse standalone project on STM32H747i\r\n");
 
