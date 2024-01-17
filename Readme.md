@@ -2,7 +2,7 @@
 
 An IAR Embedded Workbench example project that can be used as a starting point for running IAR library models (deployed in Edge Impulse studio) on actual hardware.
 
-This example is based on the on the STMicroelectronics [Nucleo-F439ZI](https://www.st.com/en/evaluation-tools/nucleo-f439zi.html) development board. But can be easily swapped out for any of the other boards in the [STM32CubeH7](https://github.com/STMicroelectronics/STM32CubeH7) BSP.
+This example is based on the on the STMicroelectronics [STM32H747I-DISCO](https://www.st.com/en/evaluation-tools/stm32h747i-disco.html) development board. But can be easily swapped out for any of the other boards in the [STM32CubeH7](https://github.com/STMicroelectronics/STM32CubeH7) BSP.
 
 ## Getting started
 
