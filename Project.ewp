@@ -355,16 +355,16 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>$PROJ_DIR$\..\Common\Inc</state>
-                    <state>$PROJ_DIR$\..\CM7\Inc</state>
-                    <state>$PROJ_DIR$\..\STM32CubeH7\Drivers\CMSIS\Include</state>
-                    <state>$PROJ_DIR$\..\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</state>
-                    <state>C:\Users\Arjan\iar-export-stm32h7\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc</state>
-                    <state>$PROJ_DIR$\..\STM32CubeH7\Drivers\BSP\STM32H747I-DISCO</state>
-                    <state>$PROJ_DIR$\..\STM32CubeH7\Drivers\BSP\Components\Common</state>
-                    <state>$PROJ_DIR$\..\STM32CubeH7\Utilities\lcd</state>
-                    <state>$PROJ_DIR$\..\STM32CubeH7\Utilities\Fonts</state>
-                    <state>$PROJ_DIR$\..\STM32CubeH7\Utilities\CPU</state>
+                    <state>$PROJ_DIR$\Common\Inc</state>
+                    <state>$PROJ_DIR$\CM7\Inc</state>
+                    <state>$PROJ_DIR$\STM32CubeH7\Drivers\CMSIS\Include</state>
+                    <state>$PROJ_DIR$\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</state>
+                    <state>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc</state>
+                    <state>$PROJ_DIR$\STM32CubeH7\Drivers\BSP\STM32H747I-DISCO</state>
+                    <state>$PROJ_DIR$\STM32CubeH7\Drivers\BSP\Components\Common</state>
+                    <state>$PROJ_DIR$\STM32CubeH7\Utilities\lcd</state>
+                    <state>$PROJ_DIR$\STM32CubeH7\Utilities\Fonts</state>
+                    <state>$PROJ_DIR$\STM32CubeH7\Utilities\CPU</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -692,7 +692,7 @@
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>16</hasPrio>
+                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -1451,16 +1451,16 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>$PROJ_DIR$\..\Common\Inc</state>
-                    <state>$PROJ_DIR$\..\CM4\Inc</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Include</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Inc</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32H747I-DISCO</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\Common</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Utilities\lcd</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Utilities\Fonts</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Utilities\CPU</state>
+                    <state>$PROJ_DIR$\Common\Inc</state>
+                    <state>$PROJ_DIR$\CM4\Inc</state>
+                    <state>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Include</state>
+                    <state>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include</state>
+                    <state>$PROJ_DIR$\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Inc</state>
+                    <state>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STM32H747I-DISCO</state>
+                    <state>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\Common</state>
+                    <state>$PROJ_DIR$\..\..\..\..\..\Utilities\lcd</state>
+                    <state>$PROJ_DIR$\..\..\..\..\..\Utilities\Fonts</state>
+                    <state>$PROJ_DIR$\..\..\..\..\..\Utilities\CPU</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2196,7 +2196,7 @@
     <group>
         <name>Doc</name>
         <file>
-            <name>$PROJ_DIR$\..\Readme.md</name>
+            <name>$PROJ_DIR$\Readme.md</name>
         </file>
     </group>
     <group>
@@ -2206,77 +2206,77 @@
             <group>
                 <name>STM32H747I_DISCO</name>
                 <file>
-                    <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\BSP\STM32H747I-DISCO\stm32h747i_discovery.c</name>
+                    <name>$PROJ_DIR$\STM32CubeH7\Drivers\BSP\STM32H747I-DISCO\stm32h747i_discovery.c</name>
                 </file>
             </group>
         </group>
         <group>
             <name>CMSIS</name>
             <file>
-                <name>$PROJ_DIR$\..\Common\Src\system_stm32h7xx.c</name>
+                <name>$PROJ_DIR$\Common\Src\system_stm32h7xx.c</name>
             </file>
         </group>
         <group>
             <name>STM32H7xx_HAL_Driver</name>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rtc.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rtc.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rtc_ex.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rtc_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c</name>
+                <name>$PROJ_DIR$\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c</name>
             </file>
         </group>
     </group>
@@ -2296,13 +2296,13 @@
                     <configuration>STM32H747I_DISCO_CM7</configuration>
                 </excluded>
                 <file>
-                    <name>$PROJ_DIR$\..\CM4\Src\main.c</name>
+                    <name>$PROJ_DIR$\CM4\Src\main.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\CM4\Src\stm32h7xx_hal_msp.c</name>
+                    <name>$PROJ_DIR$\CM4\Src\stm32h7xx_hal_msp.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\CM4\Src\stm32h7xx_it.c</name>
+                    <name>$PROJ_DIR$\CM4\Src\stm32h7xx_it.c</name>
                 </file>
             </group>
             <group>
@@ -2311,13 +2311,13 @@
                     <configuration>STM32H747I_DISCO_CM4</configuration>
                 </excluded>
                 <file>
-                    <name>$PROJ_DIR$\..\CM7\Src\main.c</name>
+                    <name>$PROJ_DIR$\CM7\Src\main.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\CM7\Src\stm32h7xx_hal_msp.c</name>
+                    <name>$PROJ_DIR$\CM7\Src\stm32h7xx_hal_msp.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\CM7\Src\stm32h7xx_it.c</name>
+                    <name>$PROJ_DIR$\CM7\Src\stm32h7xx_it.c</name>
                 </file>
             </group>
             <group>

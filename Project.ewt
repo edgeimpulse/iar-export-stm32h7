@@ -2963,7 +2963,7 @@
             <group>
                 <name>CM7</name>
                 <file>
-                    <name>$PROJ_DIR$\..\CM7\Src\main.c</name>
+                    <name>$PROJ_DIR$\CM7\Src\main.c</name>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\..\CM7\Src\stm32h7xx_hal_msp.c</name>
