@@ -58,13 +58,13 @@ static void Error_Handler(void);
 
 /* Private functions ---------------------------------------------------------*/
 
-static void ei_printf(const char *format, ...)
-{
-    va_list myargs;
-    va_start(myargs, format);
-    vprintf(format, myargs);
-    va_end(myargs);
-}
+// static void ei_printf(const char *format, ...)
+// {
+//     va_list myargs;
+//     va_start(myargs, format);
+//     vprintf(format, myargs);
+//     va_end(myargs);
+// }
 
 /**
   * @brief  Main program
@@ -135,7 +135,9 @@ int main(void)
     // HAL_UARTEx_EnableFifoMode(&UartHandle);
 
 
-    ei_printf("Edge Impulse standalone project on STM32H747i\r\n");
+    printf("Edge Impulse standalone project on STM32H747i\r\n");
+
+    ei_main();
 
     /* Infinite loop */
     while(1) { ; }
