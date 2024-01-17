@@ -16,7 +16,7 @@ $ git clone git@github.com:edgeimpulse/iar-export-stm32h7.git
 ```
 The STMicroelectronics board support package is hosted and maintained by STMicroelectronics. A link to the BSP is added has a submodule to this repository and can be installed with following command:
 ```
-$ git submodule update --init
+$ git submodule update --init --recursive
 ```
 
 ### Using IAR libraries with Edge Impulse
