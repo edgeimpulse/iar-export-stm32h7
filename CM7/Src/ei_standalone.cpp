@@ -65,9 +65,9 @@ int ei_main(void) {
 #endif
         }
 #if EI_CLASSIFIER_HAS_ANOMALY == 1
-        printf("%.3f", result.anomaly);
+        ei_printf("%.3f", result.anomaly);
 #endif
-        printf("]\n");
+        ei_printf("]\n");
 #endif
 
         ei_sleep(2000);
