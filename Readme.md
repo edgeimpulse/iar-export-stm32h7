@@ -6,7 +6,7 @@ This example is based on the on the STMicroelectronics [STM32H747I-DISCO](https:
 
 ## Getting started
 
-For general documentation on how to start with IAR library deployments visit the [documentation](https://docs.edgeimpulse.com/docs/run-inference/iar-library.md) page on Edge Impulse.
+For general documentation on how to start with IAR library deployments visit the [documentation](https://docs.edgeimpulse.com/docs/run-inference/iar-library) page on Edge Impulse.
 
 ### Setting up the project
 
